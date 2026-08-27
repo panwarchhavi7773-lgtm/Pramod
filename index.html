@@ -2,19 +2,22 @@
 <html>
 <head>
 <title>For You ❤️</title>
+
 <style>
 body{
 text-align:center;
 background:pink;
 font-family:Georgia;
-padding:50px 20px;
+padding:30px 15px;
 color:#5a3042;
 }
+
 .box{
 background:white;
-padding:30px;
+padding:25px;
 border-radius:30px;
 }
+
 button{
 background:#e88aaa;
 color:white;
@@ -23,8 +26,20 @@ padding:15px 25px;
 border-radius:25px;
 font-size:17px;
 }
+
+.photos{
+margin-top:25px;
+}
+
+.photos img{
+width:90%;
+max-width:350px;
+margin:12px;
+border-radius:20px;
+}
 </style>
 </head>
+
 <body>
 
 <div class="box">
@@ -41,8 +56,31 @@ font-size:17px;
 
 <script>
 function show(){
+
 document.getElementById("surprise").innerHTML=
-"<h1>Happy Birthday, Pramod ❤️🎂</h1><p>You are really special to me. 🥹❤️</p><p>Hope your day is as beautiful as you are.</p><h2>With love 💌</h2>";
+
+"<h1>Happy Birthday, Pramod ❤️🎂</h1>" +
+
+"<p>You are really special to me. 🥹❤️</p>" +
+
+"<p>Hope your day is as beautiful as you are.</p>" +
+
+"<div class='photos'>" +
+
+"<img src='IMG_20260827_212639.jpg'>" +
+
+"<img src='IMG_20260827_212619.jpg'>" +
+
+"<img src='IMG_20260827_212609.jpg'>" +
+
+"<img src='IMG_20260827_212558.jpg'>" +
+
+"<img src='IMG_20260827_212546.jpg'>" +
+
+"</div>" +
+
+"<h2>With love 💌</h2>";
+
 }
 </script>
 
